@@ -5,14 +5,12 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
 
 import java.time.Duration;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 
 import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 
-public class CartDeliveryPositiveTests {
+public class CardDeliveryPositiveTests {
 
     int days = 4;
     MeetingData meetingData = new MeetingData();
@@ -20,7 +18,7 @@ public class CartDeliveryPositiveTests {
     @BeforeEach
     void setUp() {
 
-        open( "http://localhost:7777/" );
+        open( "http://localhost:9999/" );
 
     }
 
