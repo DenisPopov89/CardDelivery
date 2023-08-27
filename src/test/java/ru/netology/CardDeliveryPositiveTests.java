@@ -18,7 +18,7 @@ public class CardDeliveryPositiveTests {
     @BeforeEach
     void setUp() {
 
-        open( "http://localhost:/9999" );
+        open( "http://localhost:9999/" );
 
     }
 
